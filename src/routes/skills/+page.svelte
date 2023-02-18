@@ -149,7 +149,9 @@
         },
     ]
 </script>
-
+<svelte:head>
+    <title>Skills | Kaan Kuscu - Backend Developer</title>
+</svelte:head>
 <section
         class="template"
         in:fly={{ y: 100, duration: 500, delay: 200}}

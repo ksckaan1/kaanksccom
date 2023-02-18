@@ -38,7 +38,9 @@
         isBlogLoaded = true;
     })
 </script>
-
+<svelte:head>
+    <title>Blog | Kaan Kuscu - Backend Developer</title>
+</svelte:head>
 <div class="template">
     <div class="section-title mb-5"
          in:fly={{ y: 100, duration: 500, delay: 200}}

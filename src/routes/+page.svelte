@@ -41,6 +41,10 @@
 
     const quote = randomQuote();
 </script>
+<svelte:head>
+    <title>Kaan Kuscu - Backend Developer</title>
+</svelte:head>
+
 <section class="flex flex-col xl:flex-row">
     <img alt="" class="z-0 xl:absolute top-0 right-0 h-1/2 xl:h-screen w-screen xl:w-2/5 object-cover"
          in:fly={{ x: 500, duration: 500, delay: 200}}

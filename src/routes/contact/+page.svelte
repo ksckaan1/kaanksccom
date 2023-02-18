@@ -46,7 +46,9 @@
         }
     ]
 </script>
-
+<svelte:head>
+    <title>Contact | Kaan Kuscu - Backend Developer</title>
+</svelte:head>
 <section class="template" out:fade={{duration: 200}}>
     <div class="section-title mb-5"
          in:fly={{ y: 100, duration: 500, delay: 200}}
